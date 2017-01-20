@@ -1,0 +1,74 @@
+		*{ margin: 0; padding: 0; }
+		body{ 
+			max-width: 1600px; 
+			margin: 0 auto;
+		}
+		div.slider{
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+			border: 1px solid red;
+		}
+		div.slider > .sliders{
+			/* sliders width = 이미지 크기 x 장수 */
+		}
+		.slider > .sliders > img{
+			float: left;
+			opacity: 0.8;
+
+			/*img 크기는 sliders(이미지 롤) / 장수 */
+		}
+
+		/* 인디케이터 */
+		ul.slider-indicator{
+			overflow: hidden;
+			position: absolute;
+			width: 300px;
+			left: 0; right: 0;
+			bottom: 30px;
+			margin: 0 auto;
+			text-align: center;
+			border: 1px solid red;
+		}
+		ul.slider-indicator > li{
+			font-size: 12px;
+			width: 16px; height: 16px;
+			margin: 0 5px;
+			border-radius: 9px;
+			display: inline-block;
+			color: #333;
+			background: #ccc;
+			border: 1px solid #999;
+			opacity: 0.8;
+		}
+		ul.slider-indicator > li.active{
+			background: yellow;
+		}
+		ul.slider-indicator > li > a{
+			display: block;
+			text-decoration: none;
+		}		
+
+		/* 좌우 버튼 */ 
+		nav.slider-btn > a:first-child{
+			position: absolute;
+			left: 20px; top: 50%;
+			display: block;
+			border: 1px solid;
+			padding: 10px 20px;
+		}
+		nav.slider-btn > a:last-child{
+			position: absolute;
+			right: 20px; top: 50%;
+			display: block;
+			border: 1px solid;
+			padding: 10px 20px;
+		}
+		nav.slider-btn > a > i{
+			font-size: 3em;
+			color: #666;
+			text-shadow: 1px 1px 1px #333;
+		}
+		nav.slider-btn > a:hover > i{
+			color: white;
+		}
