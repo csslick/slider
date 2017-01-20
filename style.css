@@ -4,6 +4,9 @@
 			margin: 0 auto;
 			font-family: 'Arial', sans-serif;
 		}
+		header{
+			text-align: center;
+		}
 		h1{ font-weight: normal;}
 		div.slider{
 			position: relative;
