@@ -1,4 +1,7 @@
-# Responsive Slider
+# Slider Feature
+- pager
+- controls
+- auto play
 
 
 ### Contact
