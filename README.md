@@ -5,5 +5,5 @@
 
 
 ### Contact
-tailofmoon@naver.com
+https://cafe.naver.com/csslick
 
